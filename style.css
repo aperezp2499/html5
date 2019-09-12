@@ -25,45 +25,46 @@ body{
 }
 
 #one{
-	width: 31%;
+	width: 30%;
 	display: inline-block;
 	padding: 12px;
-	background-size: cover;
 }
 
 #two{
-	width: 33%;
+	width: 30%;
 	display: inline-block;
 	padding: 12px;
 	
 }
 
 #three{
-	width: 33%;
+	width: 30%;
 	display: inline-block;
 	padding: 12px;
 }
 
-#one .circule-image{
+#one .circle-image{
 	width: 200px;
 	height: 200px;
 	border-radius: 200px;
-	background: blue;
+	background: url('fotosweb/girasol.jpg');
 
 }
 
-#two .circule-image{
+#two .circle-image{
 	width: 200px;
 	height: 200px;
 	border-radius: 200px;
 	background: red;
+		background: url('fotosweb/margaritas.jpg');
 
 }
 
-#three .circule-image{
+#three .circle-image{
 	width: 200px;
 	height: 200px;
 	border-radius: 200px;
 	background: yellow;
+		background: url('fotosweb/rosa.jpg');
 
 }
