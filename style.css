@@ -1,36 +1,67 @@
 body{
+	margin: 0;
+	font-family:'Source Code Pro', monospace;
+	background: url(fotosweb/girasol.jpg): no-repeat center center fixed;
+	background-size: cover;
 
 }
 
 #wrapper{
 	width: 90%;
 	height: auto;
-	margin: 12px;
+	margin: 0 auto;
 	padding: 12px;
-	background: teal;
 }
 
 #title{
+	font-size:48px;
 
 }
 
 #rosas{
+	width: 100%;
+	height: auto;
 
 }
 
 #one{
-
+	widows: 31%;
+	display: inline-block;
+	padding: 12px;
 }
 
 #two{
-
+	widows: 33%;
+	display: inline-block;
+	padding: 12px;
 }
 
 #three{
+	widows: 33%;
+	display: inline-block;
+	padding: 12px;
+}
+
+#one .circule-image{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	background: blue;
 
 }
 
-.circule-image{
+#two .circule-image{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	background: red;
 
 }
 
+#three .circule-image{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	background: yellow;
+
+}
