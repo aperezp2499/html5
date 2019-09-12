@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	font-family:'Source Code Pro', monospace;
-	background: url(fotosweb/girasol.jpg): no-repeat center center fixed;
+	background: url('fotosweb/fondo.jpg') no-repeat center center fixed;
 	background-size: cover;
 
 }
@@ -25,19 +25,21 @@ body{
 }
 
 #one{
-	widows: 31%;
+	width: 31%;
 	display: inline-block;
 	padding: 12px;
+	background-size: cover;
 }
 
 #two{
-	widows: 33%;
+	width: 33%;
 	display: inline-block;
 	padding: 12px;
+	
 }
 
 #three{
-	widows: 33%;
+	width: 33%;
 	display: inline-block;
 	padding: 12px;
 }
